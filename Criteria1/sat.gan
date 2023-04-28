@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="SAT" company="" webLink="http://" view-date="2023-01-01" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3230" locale="en_US">
+    <description/>
+    <view zooming-state="default:9" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Client" color="#8cb6ce" meeting="false" start="2023-03-01" duration="22" complete="0" thirdDate="2023-04-06" thirdDate-constraint="0" expand="false">
+            <task id="6" name="Finding a client" color="#8cb6ce" meeting="false" start="2023-03-27" duration="4" complete="0" thirdDate="2023-03-06" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Client found :dad
+Current client: Dad]]>
+                </notes>
+            </task>
+            <task id="7" name="Proposal final" color="#8cb6ce" meeting="false" start="2023-03-17" duration="1" complete="0" thirdDate="2023-03-02" thirdDate-constraint="0" expand="true"/>
+            <task id="8" name="Project Planning" color="#000000" meeting="false" start="2023-03-01" duration="14" complete="0" thirdDate="2023-03-01" thirdDate-constraint="1" expand="false">
+                <task id="9" name="Choose development model" color="#8cb6ce" meeting="false" start="2023-03-06" duration="10" complete="0" thirdDate="2023-02-28" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[Waterfall]]>
+                    </notes>
+                </task>
+                <task id="10" name="Justifcation of model" color="#8cb6ce" meeting="false" start="2023-03-06" duration="10" complete="0" thirdDate="2023-02-13" thirdDate-constraint="0" expand="true"/>
+                <task id="11" name="Create a gantt Chart" meeting="false" start="2023-02-13" duration="1" complete="0" expand="true"/>
+                <task id="12" name="END" color="#8cb6ce" meeting="false" start="2023-03-20" duration="1" complete="0" thirdDate="2023-02-13" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="5" name="Analysis" meeting="false" start="2023-01-30" duration="44" complete="0" expand="false">
+            <task id="26" name="Create SRS" color="#8cb6ce" meeting="false" start="2023-03-27" duration="4" complete="0" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true"/>
+            <task id="13" name="Data collection" color="#8cb6ce" meeting="false" start="2023-03-20" duration="5" complete="0" thirdDate="2023-04-06" thirdDate-constraint="1" expand="false">
+                <task id="14" name="First: Make a online survey" meeting="false" start="2023-03-20" duration="1" complete="0" expand="true"/>
+                <task id="15" name="collect the data given from survey" meeting="false" start="2023-03-20" duration="1" complete="0" expand="true"/>
+                <task id="16" name="Use survey to further add to project plan" meeting="false" start="2023-03-21" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="17" name="Requirements" meeting="false" start="2023-03-27" duration="4" complete="0" expand="false">
+                <task id="18" name="FR" color="#8cb6ce" meeting="false" start="2023-03-27" duration="4" complete="0" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true"/>
+                <task id="19" name="NFR" color="#8cb6ce" meeting="false" start="2023-03-27" duration="4" complete="0" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="20" name="Constraints" meeting="false" start="2023-03-31" duration="1" complete="0" expand="false">
+                <task id="21" name="Technical" meeting="false" start="2023-03-31" duration="1" complete="0" expand="true"/>
+                <task id="22" name="Non Technical" meeting="false" start="2023-03-31" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="23" name="Scope" meeting="false" start="2023-04-03" duration="1" complete="0" expand="false">
+                <task id="24" name="In-Sccope" meeting="false" start="2023-04-03" duration="1" complete="0" expand="true"/>
+                <task id="25" name="Out of scope" color="#8cb6ce" meeting="false" start="2023-04-03" duration="1" complete="0" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="1" name="Design" color="#8cb6ce" meeting="false" start="2023-01-02" duration="21" complete="0" thirdDate="2023-04-06" thirdDate-constraint="0" expand="false">
+            <task id="33" name="Requirements" meeting="false" start="2023-03-20" duration="1" complete="0" expand="false">
+                <task id="36" name="Interface" meeting="false" start="2023-03-20" duration="1" complete="0" expand="false">
+                    <task id="37" name="Numerica data" color="#8cb6ce" meeting="false" start="2023-01-02" duration="1" complete="0" thirdDate="2023-01-02" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[Numeric data = date, price, phone number]]>
+                        </notes>
+                    </task>
+                </task>
+                <task id="38" name="Business" meeting="false" start="2023-03-20" duration="1" complete="0" expand="true"/>
+                <task id="39" name="Regulatory" meeting="false" start="2023-03-20" duration="1" complete="0" expand="true"/>
+                <task id="40" name="Security" meeting="false" start="2023-03-20" duration="1" complete="0" expand="true">
+                    <task id="41" name="Members" color="#8cb6ce" meeting="false" start="2023-03-20" duration="1" complete="0" thirdDate="2023-01-02" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[Admin - add/remove users/ has access to everything (can also manage user passwords)
+Member - can add appointments and remove but has no access to removing or adding other users ]]>
+                        </notes>
+                    </task>
+                </task>
+            </task>
+            <task id="28" name="website Solution Ideas" color="#000000" meeting="false" start="2023-03-20" duration="1" complete="0" thirdDate="2023-01-30" thirdDate-constraint="0" expand="false">
+                <task id="27" name="Draft 1" meeting="false" start="2023-03-21" duration="1" complete="0" expand="true"/>
+                <task id="29" name="Draft 2" meeting="false" start="2023-03-22" duration="1" complete="0" expand="true"/>
+                <task id="30" name="Draft 3" meeting="false" start="2023-03-22" duration="1" complete="0" expand="true"/>
+                <task id="31" name="FINAL WEBSITE FOR SOLUTION" meeting="false" start="2023-03-24" duration="1" complete="0" expand="false">
+                    <task id="32" name="Final Website Design option 3(draft 3)" meeting="false" start="2023-03-27" duration="1" complete="0" expand="true"/>
+                </task>
+            </task>
+        </task>
+        <task id="2" name="Development" color="#8cb6ce" meeting="false" start="2023-03-27" duration="4" complete="0" thirdDate="2023-04-06" thirdDate-constraint="0" expand="true"/>
+        <task id="3" name="Evaluation" color="#8cb6ce" meeting="false" start="2023-03-27" duration="4" complete="0" thirdDate="2023-04-06" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Gulam H Naderi" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
